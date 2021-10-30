@@ -1,3 +1,4 @@
+#include <iostream>
 #include <unordered_map>
 
 class Solution {
@@ -37,6 +38,8 @@ int main() {
   assert(s->climbStairs(10) == 89);
   assert(s->climbStairs(20) == 10946);
   assert(s->climbStairs(40) == 165580141);
+
+  int result = s->climbStairs(5);
 
   return 0;
 }
